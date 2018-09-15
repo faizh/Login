@@ -30,12 +30,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String username = user.getText().toString();
                 String password = pass.getText().toString();
-                /*String validusername1 = "erick";
-                String validusername2 = "berlian";
-                String validpassword1 = "erick";
-                String validpassword2 = "berlian";*/
 
-                if((username.equals(" ") || password.equals(" ")) ){
+                if((username.equals("") || password.equals("")) ){
                     Toast.makeText(MainActivity.this,
                             "Login Failed! Input Username and Password",
                             Toast.LENGTH_LONG).show();
