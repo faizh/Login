@@ -61,4 +61,13 @@
         android:background="@android:color/transparent"
         android:onClick="Share"
         android:src="@drawable/ic_share_black_24dp" />
+
+    <Button
+        android:id="@+id/btnform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="212dp"
+        android:text="Input Data" />
 </RelativeLayout>
